@@ -57,6 +57,7 @@ These engineered features are combined to form the model's input matrix and help
 
 ## 🗂️ Repository Structure
 
+<pre>
 frcast/
 ├── data/                                          # Scripts to download, clean, and prepare features/targets
 ├── model/                                         # Model training, tuning (Optuna), and evaluation logic
@@ -65,4 +66,4 @@ frcast/
 ├── main.py                                        # Entry script: runs full pipeline for the next day 
 ├── requirements.txt                               # Python package dependencies
 └── README.md                                      # Project overview and instructions
-
+</pre>
