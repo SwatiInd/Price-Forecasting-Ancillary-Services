@@ -5,7 +5,7 @@ from frcast.data.fr_prices import create_lag_shifted_df, get_historical_fr_price
 from frcast.data.preprocessing import create_temporal_features_df
 import pandas as pd
 
-def get_train_featuers_target_df(train_end_date=None):
+def get_train_features_target_df(train_end_date=None):
     """
     Retrieve the model train features as a DataFrame for one year
 
