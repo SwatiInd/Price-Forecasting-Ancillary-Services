@@ -55,4 +55,14 @@ This project includes several domain-informed features engineered from NESO data
 
 These engineered features are combined to form the model's input matrix and help capture key patterns and signals relevant to DCL price formation.
 
+## 🗂️ Repository Structure
+
+frcast/
+├── data/                                          # Scripts to download, clean, and prepare features/targets
+├── model/                                         # Model training, tuning (Optuna), and evaluation logic
+├── figures/                                       # Generated figures for forecasts and error analysis
+├── model_peformance_evaluation.ipynb              # Jupyter notebooks for experimentation and visualization
+├── main.py                                        # Entry script: runs full pipeline for the next day 
+├── requirements.txt                               # Python package dependencies
+└── README.md                                      # Project overview and instructions
 
