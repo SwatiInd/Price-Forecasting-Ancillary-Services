@@ -25,7 +25,8 @@
 - Train (9-months) and validation (3-months) datasets
 - Hyperparameter tuning by Optuna
 - Best model is further fitted for one year data 
-
+- Prediction is made for the next day of the fitted data
+- Model performance is compared to seasonal-naive forecast (lag: one-day)
 
 
 
