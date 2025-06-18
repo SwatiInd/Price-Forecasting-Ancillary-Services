@@ -19,6 +19,12 @@ To develop an accurate and explainable model that forecasts **day-ahead DCL auct
 - **Features**: Historical auction prices, calendar features, lag values
 - **Baseline**: Previous-day DCL auction prices (naive seasonal forecast)
 
+## Key Results
+<p align="center">
+  <img src="./figures/Monthly_MAE.png"   height="350"  />
+  <img src="./figures/forecast_highest_price_Jan.png"   height="350"  />
+</p>
+
 ## 🧪 Feature Engineering
 This project includes several domain-informed features engineered from NESO data sources to enhance forecasting accuracy.
 
